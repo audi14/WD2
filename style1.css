@@ -1,31 +1,42 @@
 
+body {
+    background: linear-gradient(to right, lightgreen, teal);
+    font-family: Veradana;
+    margin: 0;
+}
+    
+
 .header {
-    background-color:red;
+    background:rgba(0,0,0,.2);
     grid-area:header;
     }
 
 .nav {
-    background-color:blue;
+    background:rgba(0,0,0,.2);
     grid-area:nav;
+    padding: 5px;
     }
 
 .main {
-    background-color:green;
+    background:rgba(0,0,0,.2);
     grid-area:main;
     }
 
 
 .footer {
-    background-color:yellow;
+    background:rgba(0,0,0,.2);
     grid-area:footer;
     }
 
 .container1 { /*for index.html*/
   display: grid;
-  grid-template-columns: 25% auto;
+  grid-template-columns: auto 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-rows: 3em 3em 3em;
   grid-template-areas:
     "header header"
     "nav main"
-    "footer footer";
-    }
+    "footer footer"
+}
 
