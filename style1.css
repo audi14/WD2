@@ -5,28 +5,27 @@ body {
     margin: 0;
 }
     
-
 .header {
     background:rgba(0,0,0,.2);
     grid-area:header;
-    }
+}
 
 .nav {
     background:rgba(0,0,0,.2);
     grid-area:nav;
     padding: 5px;
-    }
+}
 
 .main {
     background:rgba(0,0,0,.2);
     grid-area:main;
-    }
+}
 
 
 .footer {
     background:rgba(0,0,0,.2);
     grid-area:footer;
-    }
+}
 
 .container1 { /*for index.html*/
   display: grid;
