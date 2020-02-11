@@ -3,6 +3,9 @@
   <head>
     <title> basic grid</title>
 <link rel="stylesheet" type="text/css" href="style1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="code.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
  <div class="container1">
@@ -10,17 +13,18 @@
       <h1>Let's Travel the World</h1>
       <h3>It's the Journey AND the Destination</h3>
    </header>
-   <nav>
-    <ol>
+   <nav id="flex-nav">
+      <a href="#" class="toggleNav">&#9776; Menu</a> <!--This will only be visible less than 480px wide-->
+    <ul>
      <li><a href="index.html">Home</a></li>     
      <li><a href="index.html">Destination</a></li>
      <li><a href="index.html">Special</a></li>
      <li><a href="index.html">Travel Blog</a></li>
      <li><a href="index.html">Contact Us</a></li>
-    </ol>
+    </ul>
    </nav> 
    <main>
-      <h6>Welcome to Let's Travel The World</h6>
+      <h2>Welcome to Let's Travel The World</h2>
     
       <p>By traveling - both within the USA and abroad - we expand our horizons and gain a greater appreciation of the world we live in.</p>
       
