@@ -105,7 +105,9 @@ aside a {
   color:white;
   
 }
-
+aside a: hover{
+	color: navy;
+}
 aside h2{
   color:navy;
 }
