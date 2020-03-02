@@ -113,23 +113,23 @@ article {
   background:rgba(0,0,0,.2);
   padding:5px;
 }
-
-.top{
-  grid-area: top;
+article h2 {
   color:navy;
   text-align:center;
+}
+article p {
+color:white
+}
+.top{
+  grid-area: top;
 }
 
 .middle{
   grid-area: middle;
-  color:navy;
-  text-align:center;
 }
 
 .bottom{
   grid-area: bottom;
-  color:navy;
-  text-align:center;
 }
 /*-----------------------Phone Media Query------------------------*/
 .container1 { /*for index.html*/
@@ -253,4 +253,3 @@ article {
     
 
 }
-
