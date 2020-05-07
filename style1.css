@@ -109,7 +109,7 @@ video {
 .button {
 padding:5px;
 background-color:navy;
-color:lightseargeen;
+color:lightseagreen;
 cursor:pointer;
 
 
@@ -331,6 +331,15 @@ grid-template-areas:
 "div1"
 "div2";
 }
+
+.nestedgrid3 {
+display: grid;
+grid-gap:.5em;
+justify-items:center;
+align-items:end;
+grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
 /*This stuff is for the hamburger menu*/
 .toggleNav {
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
@@ -477,6 +486,7 @@ display:grid;
 grid-template-areas:
 "div1 div2";
 }
+
 
 .container4 { /*for destination.html and contact.html*/
   display: grid;
